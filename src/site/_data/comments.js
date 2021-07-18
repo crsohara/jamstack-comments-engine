@@ -8,7 +8,7 @@ const submissions = require('./approved-comments_submissions.json');
 module.exports = () => {
 
   let comments = {};
-
+return comments
   submissions.forEach(entry => {
     let comment = {
       name: entry.data.name,
